@@ -1,6 +1,8 @@
 
 import React from 'react'
+import PropTypes from 'prop-types';
 import { createUnderstyle } from 'understyle'
+React.PropTypes = PropTypes;
 
 const Robox = (Comp) => {
   class WrappedComponent extends React.Component {
@@ -132,4 +134,3 @@ const Robox = (Comp) => {
 }
 
 export default Robox
-

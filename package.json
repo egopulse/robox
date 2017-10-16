@@ -2,7 +2,7 @@
   "name": "robox",
   "version": "1.0.0-beta.8",
   "description": "Higher-order React component for adding style helper props based on understyle",
-  "main": "dist/Robox.js",
+  "main": "src/Robox.js",
   "scripts": {
     "prepublish": "mkdir -p dist && babel src --out-dir dist",
     "test": "standard && ava -v"
