@@ -102,4 +102,3 @@ test('allows configuration of columns through context', t => {
     width: '25%'
   })
 })
-
